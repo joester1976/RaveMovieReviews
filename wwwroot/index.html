@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Rave Movie Review - The Best Unbiased Movie Review Website Out There!</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="./scripts/script.js"></script>
+    </head>
+    
+    <body>
+        
+        <div id="mainbody">
+            
+            <!-- The header section of the website. -->
+            <div id="header-section">
+                <img src="./images/header-image.jpg" />
+            </div>
+            
+            
+            <!-- The navigation bar of the website -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-custom-color">
+              <div class="container">
+                <a class="navbar-brand" href="#">Rave Movie Reviews</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Login</a>
+                    </li>
+                  </ul>
+    
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search movies...">
+                    <button class="btn btn-outline-success my-2 my-sm-0 search-text-color" type="submit">GO!</button>
+                  </form>
+                </div>
+              </div>    
+            </nav> 
+            
+            <!-- Current Movie Posters Carousel -->
+            <div class="container text-center carousel-section my-3">
+              <h3 id="carousel-section-title">Current Movies</h3>
+                <div id="current-movie-carousel" class="carousel slide w-100" data-ride="carousel">
+                    <div class="carousel-inner w-100" role="listbox">
+                        <div class="carousel-item row no-gutters active">
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/222/fff?text=1"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/444?text=2"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/888?text=3"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/111/fff?text=4"></div>
+                        </div>
+                        <div class="carousel-item row no-gutters">
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280?text=5"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/555?text=6"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/333/fff?text=7"></div>
+                            <div class="col-3 float-left"><img class="img-fluid" src="http://placehold.it/350x280/bbb?text=8"></div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#current-movie-carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#current-movie-carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Movie Review Section -->
+            <div id="movie-review-section">
+              <div class="row movie-review-title">
+                <div class="col-sm-12 text-center">
+                  <h3>Latest Movie Reviews</h3>  
+                </div>
+              </div>
+              
+              <div class="row movie-review-title">
+                <div class="col-sm-2">
+                  <p>Movie Release Dates</p>
+                    <ul id="release-date-list">
+                      <li>Tom Jones - <span>Apr 4, 2010</span></li>
+                      <li>Tom Jones - <span>Apr 4, 2010</span></li>
+                      <li>Tom Jones - <span>Apr 4, 2010</span></li>
+                      <li>Tom Jones - <span>Apr 4, 2010</span></li>
+                      <li>Tom Jones - <span>Apr 4, 2010</span></li>
+                      <li>Tom Jones - <span>Apr 4, 2010</span></li>
+                    </ul>
+                </div>   
+      
+                <div class="col-sm-8 movie-review-list-section">
+                    <div class="movie-list">
+                      <div class="row">
+                        <div class="col-sm-3 my-auto movie-review-thumbnail">
+                          <img src="./images/header-image.jpg" />
+                            <ul class="movie-info-at-a-glance">
+                              <li><a href="#"><i class="far fa-star"></i></a></li>
+                              <li><a href="#"><i class="far fa-star"></i></a></li>
+                              <li><a href="#"><i class="far fa-star"></i></a></li>
+                              <li><a href="#"><i class="far fa-star"></i></a></li>
+                              <li><a href="#"><i class="far fa-star"></i></a></li>
+                              <li class="float-right comment-count">23</li>
+                              <li class="float-right"><a href="#"><i class="fas fa-comment"></i></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-2 movie-review-title">
+                  <p>Sign Up</p>
+                  <p>Want to keep up to date with everything we know about movies? Sign up for a monthly newsletter. Inside are games, trivia and other fun and exciting
+                     things to keep yourself informed. Enter into the monthly drawings and win fun and exciting prizes.</p>
+                  <a href="#" class="float-right">Sign Up...</a>
+                </div>
+              </div>
+            </div>
+            
+            <footer class="footer-section">
+              <p>Rave Music Reviews &#8226; 566 Roads Way &#8226; Milwaukee, WI 56777 &#8226; 555-865-7899</p>
+            </footer>
+            
+        </div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "EnableDeveloperException": true,
+
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "kestrel": {
+    "EndPoints": {
+      "Http": {
+        "Url": "http://*:55946"
+      }
+    }
+  },
+  "Auth0": {
+    "Domain": "web361.auth0.com",
+    "ClientId": "kBYUzprFeVpZEfbhoysyFaMj3jnSlFVv",
+    "ClientSecret": "JZWV7K8K5zE7KRFQDv6kmTLlOfif-hhKRYsybghO9c5yMSV_r4MupLtZwi8PPRrJ"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ConnectionStrings": {
+    "MovieReviewContext": "Server=az1-wsq1.a2hosting.com;Database=varnerw1_MovieReviewsDatabase;User ID=varnerw1_ravereviews;password=ravereviews2019#;Trusted_Connection=False"
+  },
+  "FeatureToggles": {
+    "EnableDeveloperExceptions": true
+  },
+  "Auth0": {
+    "Domain": "web361.auth0.com",
+    "ClientId": "kBYUzprFeVpZEfbhoysyFaMj3jnSlFVv",
+    "ClientSecret": "JZWV7K8K5zE7KRFQDv6kmTLlOfif-hhKRYsybghO9c5yMSV_r4MupLtZwi8PPRrJ"
+  }
+}
